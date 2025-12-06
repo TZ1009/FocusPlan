@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 第一行：金额 + 类型 + 分类 -->
+    <TextView
+        android:id="@+id/tvTopLine"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 第二行：日期 -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:textSize="13sp"
+        android:textColor="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 第三行：备注 -->
+    <TextView
+        android:id="@+id/tvNote"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
