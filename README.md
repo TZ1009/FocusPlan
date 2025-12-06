@@ -1,0 +1,1 @@
+The app aims to provide an integrated solution for time management by syncing with system calendars and supporting task-based focus sessions. It allows users to plan their daily activities, track progress, and maintain focus through structured Pomodoro cycles.
