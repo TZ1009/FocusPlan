@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 当前任务标题 -->
+    <TextView
+        android:id="@+id/tvTaskTitle"
+        android:text="当前任务："
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:text="25:00"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStartPause"
+        android:text="开始"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:text="重置"
+        android:layout_marginTop="12dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text="返回主界面"
+        android:layout_marginTop="12dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
